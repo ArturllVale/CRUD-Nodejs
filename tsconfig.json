@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // Enable latest features (these will be overridden by your new settings where they conflict)
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    // Overridden by your new settings
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    // Bundler mode (these settings are mostly mutually exclusive with your settings.)
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    // Overridden by your new settings
+    "strict": true,
+    "skipLibCheck": true,
+    // Some stricter flags (disabled by default)
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true,
+    // Added from your request
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
